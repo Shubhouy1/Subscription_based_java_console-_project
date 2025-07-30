@@ -9,8 +9,6 @@ public class SubscriptionManager {
     public SubscriptionManager() {
         loadSubscriptions();
     }
-
-    // Predefined subscription plans
     private static final String[] PLAN_NAMES = { "Basic", "Standard", "Premium" };
     private static final double[] PLAN_AMOUNTS = { 199.0, 399.0, 599.0 };
 
